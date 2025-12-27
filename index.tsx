@@ -1,16 +1,3 @@
 
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import App from './App';
-
-const rootElement = document.getElementById('root');
-if (!rootElement) {
-  throw new Error("Could not find root element to mount to");
-}
-
-const root = ReactDOM.createRoot(rootElement);
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+// 此檔案已整合至 index.html。
+// 單一檔案結構更有利於 GitHub Pages 靜態部署。
